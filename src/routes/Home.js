@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Movie from "../component/movie";
-import home from "../css/Home.css"
+import  "../css/Home.css"
 import { Link } from "react-router-dom/cjs/react-router-dom";
 
 

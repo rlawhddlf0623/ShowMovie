@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom/cjs/react-router-dom';
-
+import '../css/Movie.css'
 
 
 function Movie({id,title,summary,large_cover_image,genres,rating,year}){
