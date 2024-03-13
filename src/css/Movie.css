@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    /* adaeb9  aliceblue snow*/
+    background-color:#121211;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none; /* 밑줄 제거 */
+    color: inherit; /* 기본 색상 상속 */
+    cursor: pointer; /* 마우스 커서를 포인터로 변경 */
+  }
+  
+.Home_container{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+.Home_movies{
+    grid-gap: 100px;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(2, minmax(400px, 1fr));
+    padding: 70px 50px 50px;
+    width: 80%;
+}
+
+.Movie_movie{
+    grid-gap: 20px;
+    background-color: #121211;
+    box-shadow: 15px 15px 20px rgba(0,0,0,0.4);
+    border: 1px solid white;
+    border-radius: 10px;
+    
+    
+    display: grid;
+    font-weight: 300;
+    grid-template-columns: minmax(150px, 1fr) 2fr;
+    margin-bottom: 70px;
+    padding: 20px;
+    text-decoration: none;
+}
+.Movie_movie_img{
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,.25), 0 18px 36px -18px rgba(0,0,0,.3), 0 -12px 36px -8px rgba(0,0,0,.025);
+    margin-right: 30px;
+    max-width: 150px;
+    position: relative;
+    top: -50px;
+    width: 100%;
+}
+.Movie_movie_title{
+    font-weight: 300;
+    margin: 0;
+    text-decoration: none;
+}
+.Movie_movie_year{
+    font-size: 14px;
+    margin-right: 10px;
+}
+.Movie_movie_genres{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 5px 0;
+    padding: 0;
+}
